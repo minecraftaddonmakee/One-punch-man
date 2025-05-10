@@ -1,1 +1,24 @@
-
+{
+  "format_version": 2,
+  "header": {
+    "description": "One Punch Man Mod - Behavior Pack",
+    "name": "One Punch Man Mod Behavior Pack",
+    "uuid": "f5bde82d-9f96-4a79-9b6f-c7b56b2e11d5",  // unique UUID for the behavior pack
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "One Punch Man Mod Scripting",
+      "language": "javascript",
+      "type": "scripting",
+      "uuid": "5e7b42b0-f89a-4854-8f9d-5ed670a33d09",  // unique UUID for the script
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a4f7b3bb-6c8e-4d8e-876f-37498777f072", // Minecraft default scripting pack UUID
+      "version": [1, 0, 0]
+    }
+  ]
+}
